@@ -1,0 +1,26 @@
+
+Userdto
+
+long user id auto
+username varchar 35
+full name varchar 255
+email varchar 35
+int age
+phone number long
+
+itinerary
+long itineraryId auto primary key
+string title
+string description
+date startDate
+date endDate
+long group id foreign key refers to group table
+
+group
+long groupId primary key auto
+long userId foreign key
+
+itinerary item
+
+
+
